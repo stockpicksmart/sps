@@ -1,0 +1,10 @@
+flask
+flask-cors
+gunicorn
+pymongo
+requests
+pandas
+pandas_datareader
+numpy
+matplotlib
+sklearn
