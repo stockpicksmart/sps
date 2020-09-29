@@ -62,7 +62,7 @@ const DatatablePage = ({ stocksValues, stocks, onClickChange }) => {
     //   ))}
     // </table>
     <div className='container mt-2'>
-      <StocksTable stocks={currentStocks} stocksValues={stocksValues} prevPage={prevPage} nextPage={nextPage} onClickChange={onClickChange} />
+      <StocksTable stocks={stocks} stocksValues={stocksValues} prevPage={prevPage} nextPage={nextPage} onClickChange={onClickChange} />
       {/* <Pagination
         stocksPerPage={stocksPerPage}
         totalStocks={stocks.length}

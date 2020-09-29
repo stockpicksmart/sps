@@ -30,7 +30,6 @@ class SMFirst extends Component {
     };
 
     onClickChange = value => {
-        console.log("ALKSJhd")
         this.context.cart.push(value);
 
         let index = this.context.stocks.indexOf(value);

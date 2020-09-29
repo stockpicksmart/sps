@@ -26,7 +26,7 @@ class Dashboard extends React.Component {
           <div className="content">
           {/* {image1 && image2 ? */}
           {image1 ?
-            <div>
+            <div className="container">
               <img src={"data:image/png;base64," +  image1 } alt="1"/>
               {/* <img src={"data:image/png;base64," +  image2 } alt="2"/> */}
             </div> : 

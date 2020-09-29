@@ -46,12 +46,12 @@ const StocksTable = ({
             </tbody>
           </Table>
         </div>
-        <div className="container-fluid">
+        {/* <div className="container-fluid">
           <Pagination className="d-flex justify-content-center">
             <Pagination.Prev onClick={prevPage} />
             <Pagination.Next onClick={nextPage} />
           </Pagination>
-        </div>
+        </div> */}
       </div>
     </Fragment>
   );
