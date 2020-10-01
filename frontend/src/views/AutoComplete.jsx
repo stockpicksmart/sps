@@ -2,35 +2,35 @@ import React, { Component, Fragment } from "react";
 import Pagination from "react-bootstrap/Pagination";
 import "../assets/css/AutoComplete.css";
 
-const alphabets = [
-  "all",
-  "a",
-  "b",
-  "c",
-  "d",
-  "e",
-  "f",
-  "g",
-  "h",
-  "i",
-  "j",
-  "k",
-  "l",
-  "m",
-  "n",
-  "o",
-  "p",
-  "q",
-  "r",
-  "s",
-  "t",
-  "u",
-  "v",
-  "w",
-  "x",
-  "y",
-  "z",
-];
+const alphabets = ['ALL', "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"]
+//   "all",
+//   "a",
+//   "b",
+//   "c",
+//   "d",
+//   "e",
+//   "f",
+//   "g",
+//   "h",
+//   "i",
+//   "j",
+//   "k",
+//   "l",
+//   "m",
+//   "n",
+//   "o",
+//   "p",
+//   "q",
+//   "r",
+//   "s",
+//   "t",
+//   "u",
+//   "v",
+//   "w",
+//   "x",
+//   "y",
+//   "z",
+// ];
 
 class Autocomplete extends Component {
   constructor(props) {
@@ -85,7 +85,7 @@ class Autocomplete extends Component {
     } else {
       // Filter our suggestions that don't contain the user's input
       filteredSuggestions = stocks.filter(
-        (stock) => stocksValues[stock].charAt(0).toLowerCase() == userInput
+        (stock) => stocksValues[stock].charAt(0).toLowerCase() == userInput.toLowerCase()
         // stocksValues[stock].toLowerCase().indexOf(userInput.toLowerCase()) > -1
         // stock.toLowerCase().indexOf(userInput.toLowerCase()) > -1
       );
